@@ -17,8 +17,7 @@ let listarPeliculas = async (req, res) =>{
 
         })
       }
-      res.json( model)      
-      console.log(model);
+      res.json( model) ;       
     })
   };
 
