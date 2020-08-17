@@ -95,11 +95,16 @@ let deletPelicula = async (req, res) => {
 }
 
 
+let homePage = (req, res) =>{
+   res.write("Bienvenido");
+}
+
   module.exports = {listarPeliculas, 
     listarContenido , 
     addPelicula,
     editPelicula,
     edit_Pelicula,
-    deletPelicula
+    deletPelicula,
+    homePage
     
   };

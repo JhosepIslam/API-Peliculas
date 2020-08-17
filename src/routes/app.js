@@ -32,7 +32,7 @@ app.post("/addPelicula", pelicula.addPelicula)
 app.get('/eliminarPelicula/:_id', pelicula.deletPelicula);
 
 
-
+app.all("/", pelicula.homePage)
 
 
   module.exports = app;
