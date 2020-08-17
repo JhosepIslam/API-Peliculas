@@ -96,7 +96,9 @@ let deletPelicula = async (req, res) => {
 
 
 let homePage = (req, res) =>{
-   res.write("Bienvenido");
+   res.json({
+     type:"200"
+   })
 }
 
   module.exports = {listarPeliculas, 
